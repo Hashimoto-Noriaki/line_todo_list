@@ -1,15 +1,16 @@
 class LineBotController < ApplicationController
   
+
   def callback
-    @tasks = Task.all
-    binding.pry
+    
+    # binding.pry
   end
 
-  def show
-    @task = Task.find(params[:id])
-  end
+  # def show
+  #   @task = Task.find(params[:id])
+  # end
 
-  def create
+  # def create
 
-  end
+  # end
 end
