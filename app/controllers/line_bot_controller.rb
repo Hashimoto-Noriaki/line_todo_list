@@ -26,10 +26,10 @@ class LineBotController < ApplicationController
 
          reply_message = {
           type: "text",
-           text: event.message['text'] #LINEに返すメッセージを考える
+           text: "確認しました。" #LINEに返すメッセージを考える
        }
       client. reply_message(event["replyToken"],reply_message)
-      binding.pry
+      
     # LINE からテキストが送信されたときの処理を記述する
       end
     end
